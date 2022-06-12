@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#left{
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 40%;
+    background-color: orange;
+}
+
+#left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#first h1{
+    position: absolute;
+    z-index: 99999;
+    color: white;
+    right: 24px;
+    bottom: 24px;
+    font-weight: 500;
+    font-size: 50px;
+    font-family: serif;
+
+}
+
+.position{
+    margin-left: 130px ;
+}
+
+#first #plus{
+    position: absolute;
+    z-index: 99999;
+    left: 12px;
+    bottom: 24px;
+    color: white;
+    margin-left: 250px;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+#first h3{
+    position: absolute;
+    z-index: 99999;
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 15px;
+    margin: 15px;
+}
+
+#first #menu{
+    position: absolute;
+    z-index: 99999;
+    right: 24px;
+    top: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+#right{
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 60%;
+    background-color: white;
+}
+
+
+#right h1{
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-weight: 40;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    transform: rotate(-90deg);
+    top: 24%;
+    right: -11%;
+}
+
+#right #box1{
+    overflow: hidden;
+    position: absolute;
+    height: 30%;
+    width: 28%;
+    right: 35%;
+    background-color: white;
+
+}
+
+#right #box2{
+    overflow: hidden;
+
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    height: 47%;
+    width: 28%;
+    background-color: white;
+
+}
+
+#right #box3{
+    overflow: hidden;
+
+    position: absolute;
+    bottom: 0;
+    right: 26%;
+    height: 25%;
+    width: 25%;
+    background-color: white;
+}
+
+.bimg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+
+#right #circle{
+    overflow: hidden;
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 0px solid black;
+    left: 50%;
+    top: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    opacity: 0;
+}
+
+#circle h4{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 12px;
+    font-family: gilroy;
+   
+}
+
+
+
+
